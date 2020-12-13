@@ -10,7 +10,6 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 8px;
   text-align: center;
   background: white;
   color: #AC3B61;
@@ -18,14 +17,35 @@ body {
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-family: Papyrus;
+  background-color: white;
+  display: table;
+  width: 100%;
+  margin-top: 0px;
+}
+.hline {
+    display: table-cell;
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+
+}
+.hline:after {
+    content: '';
+    border-top: 2px solid #AC3B61;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
   background-color: white;
+  margin-bottom: 0 !important;
+  border: 0 !important;
 }
 
 /* Style the navigation bar links */
