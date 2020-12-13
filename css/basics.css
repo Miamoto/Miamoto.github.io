@@ -22,7 +22,6 @@ body {
   background-color: white;
   display: table;
   width: 100%;
-  margin-top: 0px;
 }
 .hline {
     display: table-cell;
@@ -30,7 +29,6 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     border: none;
-
 }
 .hline:after {
     content: '';
@@ -101,10 +99,10 @@ body {
   padding: 20px;
 }
 
-.face {
-  /*background-color: #aaa;*/
-  width: 80%;
-  padding: 0px;
+.cover {
+  object-fit: cover;
+  width: 50px;
+  height: 100px;
 }
 
 /* Footer */
