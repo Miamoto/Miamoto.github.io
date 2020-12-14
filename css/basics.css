@@ -11,17 +11,18 @@ body {
 /* Header/logo Title */
 .header {
   text-align: center;
-  background: white;
   color: #AC3B61;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 70px;
+  padding: 150px;
   font-family: Papyrus;
-  background-color: white;
-  display: table;
-  width: 100%;
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/header") 50% 0 no-repeat;
+  background-size:100% 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .hline {
     display: table-cell;
@@ -41,19 +42,18 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: white;
-  margin-bottom: 0 !important;
-  border: 0 !important;
+  background-color: #404040;
 }
 
 /* Style the navigation bar links */
 .navbar a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  border-bottom: 3px solid transparent;
 }
 
 /* Right-aligned link */
@@ -61,10 +61,15 @@ body {
   float: right;
 }
 
+.navbar a.active {
+  border-bottom: 3px solid #AC3B61;
+}
+
 /* Change color on hover */
 .navbar a:hover {
   background-color: #909090;
   color: black;
+  border-bottom: 3px solid #AC3B61;
 }
 
 /* Column container */
@@ -109,7 +114,9 @@ body {
 .footer {
   padding: 5px;
   text-align: center;
-  background: white;
+  color: white;
+  background: #404040;
+
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -126,7 +133,6 @@ body {
     width: 100%;
   }
 }
-
 p {
 
 }
@@ -135,3 +141,23 @@ p {
   padding:0;
   font-size:16px;
 }
+/* Style all font awesome icons
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+ Add a hover effect if you want 
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}*/
