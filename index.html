@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
 <title>Carlos Carvalho</title>
 <meta charset="UTF-8">
@@ -11,11 +10,20 @@
 <body>
 
 <div class="navbar">
-  <a class="active" href="index.html">Home</a>
-  <!--<a href="blog.html">Blog</a>!-->
-  <a href="bio.html">BIO</a>
-  <a href="research.html">Research</a>
-  <a href="publications.html">Publications</a>
+  <a id ="en" class="active" href="index.html">Home</a>
+  <a id ="en" href="bio.html">BIO</a>
+  <a id ="en" href="research.html">Research</a>
+  <a id ="en" href="publications.html">Publications</a>
+
+  <a id ="pt" class="active" href="index.html">Home</a>
+  <a id ="pt" href="bio.html">BIO</a>
+  <a id ="pt" href="research.html">Investigação</a>
+  <a id ="pt" href="publications.html">Publicações</a>
+
+  <!--<ul class="social">
+  <li id="en_click" class="button_lang current_lang">En</li>
+  <li id="pt_click" class="button_lang">Pt</li>!-->
+  </ul>
 </div>
 
 <div class="header">
@@ -24,27 +32,41 @@
 
 <div class="row">
   <div class="side">
-    <h2>About Me</h2>
+    <h2 id="pt">Sobre mim</h2>
+    <h2 id="en">About Me</h2>
     <img src="images/face.JPEG" class="face" style="height:200px;">
-    <p>I am a student from Instituto Superior Técnico (IST), Lisbon, finishing my MSc in artificial intelligence for automatic speech recognition (ASR).
+    <p id ="en">I am a student from Instituto Superior Técnico (IST), Lisbon, finishing my MSc in artificial intelligence for automatic speech recognition (ASR).
       Currently, I am also doing research in deep learning in the context of automatic speech recognition. I am particularly interested in
       studying unsupervised learning (without labels) and representation learning to advance artificial intelligence, and hopefully, understand the human brain.
       In my free time I enjoy doing gesture drawing and playing the electric guitar. I received my BS from IST university, Lisbon.</p>
+    <p id ="pt">Sou um estudante...</p>
+
     <!--<h3>More Text</h3>!-->
-    <p>Curiosity: The background image of this website was "created" by Google DeepDream program. DeepDream was created by Google engineer Alexander Mordvintsev and was released in July 2015. You can check more <a href="https://deepdreamgenerator.com">here</a>.</p>
+    <p id ="en">Curiosity: The background image of this website was "created" by Google DeepDream program. DeepDream was created by Google engineer Alexander Mordvintsev and was released in July 2015. You can check more <a href="https://deepdreamgenerator.com">here</a>.</p>
+    <p id ="pt">Curiosidade: ...</p>
+
     <!--<div class="fakeimg" style="height:60px;">Image</div><br>
     <div class="fakeimg" style="height:60px;">Image</div><br>
     <div class="fakeimg" style="height:60px;">Image</div>!-->
   </div>
   <div class="main">
-    <h2>Contact information</h2>
+    <h2 id ="en">Contact information</h2>
+    <h2 id ="pt">Contato e Informações</h2>
     <p>carvalho.carlos21@gmail.com</p>
+
+    <div id ="en">
     <p id='p2'>Finishing my MSc in ASR with AI, with the title "TRIBUS: An end-to-end automatic speech recognition system in Portuguese" (2019-2020).</p>
     <p id='p2'>Doing research in speech for children at INESC-ID, Lisbon, Portugal (2020-).</p>
     <p id='p2'>Planning a PhD in automatic speech recognition (ASR) using deep learning and unsupervised learning, at INESC-ID Lisbon, Portugal (2021-).</p>
+    <p id ="en">My main research interests are unsupervised learning, ASR and representation learning. I am also interested in mathematical reasoning with neural networks, cognitive neuroscience and game theory.</p>
+    </div>
 
-    <p>My main research interests are unsupervised learning, ASR and representation learning. I am also interested in mathematical reasoning with neural networks, cognitive neuroscience and game theory.</p>
-
+    <div id ="pt">
+    <p id='p2' >A acabar o mestrado em ASR com IA. my MSc in ASR with AI, with the title "TRIBUS: An end-to-end automatic speech recognition system in Portuguese" (2019-2020).</p>
+    <p id='p2' >Doing research in speech for children at INESC-ID, Lisbon, Portugal (2020-).</p>
+    <p id='p2' >Planning a PhD in automatic speech recognition (ASR) using deep learning and unsupervised learning, at INESC-ID Lisbon, Portugal (2021-).</p>
+    <p>Fodasse My main research interests are unsupervised learning, ASR and representation learning. I am also interested in mathematical reasoning with neural networks, cognitive neuroscience and game theory.</p>
+    </div>
     <!--<h5>Title description, Dec 7, 2017</h5>
     <div class="fakeimg" style="height:200px;">Image</div>
     <p>Some text..</p>
@@ -63,6 +85,9 @@
   <a href="#" class="fa fa-linkedin"></a>!-->
   <h4>Copyright © 2020 Carlos Carvalho.</h5>
 </div>
+
+
+<script type="text/javascript" src="javascript/basics.js"></script>
 
 </body>
 </html>

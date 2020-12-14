@@ -141,23 +141,35 @@ p {
   padding:0;
   font-size:16px;
 }
-/* Style all font awesome icons
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+
+/*langue switch portuguese and english*/
+
+#pt {
+  display: none;
 }
- Add a hover effect if you want 
-.fa:hover {
-  opacity: 0.7;
+
+.button_lang {
+  background-color: #444;
+  color: #FFF;
+  padding: 8px 25px;
+  border-radius: 5px;
+  float: right;
+
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+.button_lang:hover, .current_lang {
+  background-color: #777;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}*/
+ul li {
+  width: auto;
+  display: inline;
+}
