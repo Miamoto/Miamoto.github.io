@@ -144,6 +144,16 @@ body {
         justify-content: space-evenly;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .neighbourhood-img img {display:none;}
+}
+
+@media screen and (max-width: 767px) {
+
+        .neighbourhood-img img {display:block;}
+
+}
 p {
 
 }
